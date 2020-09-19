@@ -1,13 +1,13 @@
 
 birthday_kids = {
-#   "Timmy" => 9, 	 
-#   "Sarah" => 6, 	  
-#   "Amanda" => 27	  
-# }	
+#   "Timmy" => 9,
+#   "Sarah" => 6,
+#   "Amanda" => 27
+# }
 
 
-def happy_birthday(birthday_kids)	
-  # add your code snippet here!	  
+def happy_birthday(birthday_kids)
+  # add your code snippet here!
 end	  birthday_kids.each do |kids_name, age|
 
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
@@ -17,16 +17,16 @@ end	  birthday_kids.each do |kids_name, age|
 end
 
 # passengers = {
-# suite_a: "Amanda Presley", 	
-# suite_b: "Seymour Hoffman", 	 
-# suite_c: "Alfred Tennyson", 	
-# suite_d: "Charlie Chaplin", 	 
-# suite_e: "Crumpet the Elf"	
-# }	
+# suite_a: "Amanda Presley",
+# suite_b: "Seymour Hoffman",
+# suite_c: "Alfred Tennyson",
+# suite_d: "Charlie Chaplin",
+# suite_e: "Crumpet the Elf"
+# }
 
 
 def select_winner(passengers)
-  # add the code snippet here!	 
+  # add the code snippet here!
 end 	  winner = ""
   passengers.each do |suite, name|
     if suite == :suite_a && name.start_with?("A")

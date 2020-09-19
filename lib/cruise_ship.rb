@@ -14,7 +14,6 @@ end	  birthday_kids.each do |kids_name, age|
 
 
   end
-end
 
 # passengers = {
 # suite_a: "Amanda Presley",

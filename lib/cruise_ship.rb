@@ -1,9 +1,9 @@
 
 birthday_kids = {
-#   "Timmy" => 9,
-#   "Sarah" => 6,
-#   "Amanda" => 27
-# }
+  "Timmy" => 9,
+  "Sarah" => 6,
+  "Amanda" => 27
+}
 
 
 def happy_birthday(birthday_kids)
@@ -12,13 +12,13 @@ def happy_birthday(birthday_kids)
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
 
-# passengers = {
-# suite_a: "Amanda Presley",
-# suite_b: "Seymour Hoffman",
-# suite_c: "Alfred Tennyson",
-# suite_d: "Charlie Chaplin",
-# suite_e: "Crumpet the Elf"
-# }
+passengers = {
+ suite_a: "Amanda Presley",
+ suite_b: "Seymour Hoffman",
+ suite_c: "Alfred Tennyson",
+ suite_d: "Charlie Chaplin",
+ suite_e: "Crumpet the Elf"
+ }
 
 
 def select_winner(passengers)

@@ -10,5 +10,3 @@ birthday_kids = {
     # add your code snippet here!
       puts "Happy Birthday #{name}! You are now #{age} years old!"
     end
-
-
